@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+        *
+        {
+            font-family: "Concert One", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="head1">
+        <a href=""><span class="logo">A</span>nchal.</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#about1">About</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home-content">
+        <div>
+        <div class="name">
+        <h3>Hello, it's me</h3>
+        <h1>ANCHAL</h1>
+        <h3>And I'm a <span>Frontend Developer !</span></h3>
+        </div>
+        <div class="logo1">
+            <a href="https://www.linkedin.com/in/anchal-3305b4221/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/Anchaltiw"><i class="bx bxl-github"></i></a>
+        </div>
+        <button class="resume">Download Resume</button>
+        </div>
+        <div>
+            <img class="img" src="./Image/fotor-20240225125714.png" alt="">
+        </div>
+    </section>
+
+<!---------------ABOUT--------------->
+
+    <section class="about" id="about1">
+        <div class="container">
+            <div class="row">
+        <div class="about col-1">
+       <img src="./Image/pexels-george-milton-7014946.jpg" height="300px" alt="" class="image">
+        </div>
+       <div class="about col-2">
+        <h1 class="subtitles">ABOUT <span class="spa">ME</span></h1>
+        <p>
+            Passionate frontend developer adapt at transforming design concepts into engaging user experiences. Proficient in HTML, CSS, and JavaScript, I bring creativity and precision to every project, ensuring optimal functionality and aesthetic appeal.
+            <br>
+            I'm a competitive coder who loves solving puzzles with code! I enjoy tackling tricky problems and finding efficient solutions using different programming languages. Always eager to learn and improve, I'm passionate about the thrill of coding challenges.
+        </p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+        </div>
+        <div class="about-div">
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li>Frontend Development</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2022-2025</span><br>B-Tech(Computer Science And Business Systems) <br>Netaji Subhash Engineering College</li>
+                <li><span>2020-2021</span><br>12th Standard <br>Trident Public School </li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="achievements">
+            <ul>
+                <li>200+ Questions on Coding Platform</li>
+                <li>5 star in C in HackerRank</li>
+                <li>4 star in C++ and Problem Solving in HackerRank</li>
+            </ul>
+        </div>
+    </div>
+       </div>
+    </div>
+    </div>
+    </section>
+    <!------------------------------------PROJECTS--------------------------------------------->
+  <section id="projects">
+    <div class="container">
+
+        <h1 class="subtitles">MY <span class="spa">PROJECTS</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img class="pr1" src="./Image/project1.jpg" alt="" width="80px" height="400px">
+                <div class="layer">
+                    <h3>Restaurant Booking</h3>
+                    <p>
+                        Done using HTML , CSS , JavaScript and React
+                    </p>
+                    <a href="https://github.com/Anchaltiw/Restaurant-Booking-System"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="pr2" src="./Image/project2.jpg" alt=""  width="80px" height="400px">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        Done using HTML , CSS and JavaScript
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./Image/project3.jpg" alt=""  width="80px" height="400px">
+                <div class="layer">
+                    <h3>Edtech Landing Page</h3>
+                    <p>
+                        Done using HTML and CSS  
+                    </p>
+                    <a href="https://github.com/Anchaltiw/Edtech-landing-page"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    
+
+
+
+
+
+
+    <!-----------------------------------CONTACT ME-------------------------------------------->
+    <div id="contact">
+      <div class="container">
+           <div class="row">
+              <div class="contact-left">
+                <h1 class="subtitles">CONTACT <span class="spa">ME</span></h1>
+                <p> <i class='bx bxs-send'></i> anchalanchal8134@gmail.com</p>
+                <p> <i class='bx bxs-phone-call' ></i> 7367007289</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anchal-3305b4221/"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://github.com/Anchaltiw"><i class="bx bxl-github"></i></a>
+                </div>
+              </div>
+              <div class="contact-right">
+                     <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button class="btn-btn2">SUBMIT</button>
+                     </form>
+                     <span id="msg"></span>
+              </div>
+           </div>
+      </div>
+    </div>        
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");   
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx6lLr7gjaRy73qJvcMVkXZMLaXkSajMKWlpnAHli6QnpuKwFnmouInrsO2y8MtENtm/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML="Message sent successfully!"
+        setTimeout(function()
+        {
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
